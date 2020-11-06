@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>WEB222</title>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/lab3-theme.css"/>
+	<script src="js/table.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="center">
+			<h2>
+			     WEB222 - Assignment 3
+			</h2>
+		</div>
+	</header>
+	<nav>
+		<div class="center">
+		<ul>	
+			<li><a href="index.html">Home</a></li>
+			<li><a href="list.html">List</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="image.html">Image</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="seneca.html">Seneca</a></li>
+			<li><a href="honesty.html">Honesty</a></li>
+		</ul>
+		</div>
+	</nav>
+		
+	<section class="main center">
+	
+	<!-- Start your code here -->
+		<h2>HTML Tables</h2>
+
+		<h3>Family Table</h3>
+	<table style="border:1px solid;">
+		<caption>My Family</caption>
+		<tr>
+			<th>Title</th><th>Name</th><th>Birthday</th>
+		</tr>
+		<tr>
+			<td>Mom</td><td>Linda</td><td>1960/06/09</td>
+		</tr>
+		<tr>
+			<td>Daughter</td><td>Lizzy</td><td>1990/01/06</td>
+		</tr>
+		<tr>
+			<td>Dog</td><td>Spot</td><td>2000/01/20</td>
+		</tr>
+	</table>
+
+	<h3>Schedule Table</h3>
+	<table style="border:1px solid;">
+		<caption>2018 Fall Schedule</caption>
+		<thead>
+			<tr>
+				<td></td><th>Monday</th><th>Tuesday</th><th>Wednesday</th>
+			<th>Thursday</th><th>Friday</th><th>Saturday/Sunday</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<th>Night</th>
+				<td>X</td><td>Cooking class</td><td>X</td><td>X</td>
+				<td>Piano class</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<th>Morning</th>
+				<td>X</td><td>X</td><td>EAP</td><td>WEB</td><td>DBS</td>
+				<td rowspan="4">NO CLASS</td>
+			</tr>
+			<tr>
+				<th>Afternoon</th>
+				<td>WEB</td><td>X</td><td>DBS</td><td>OOP</td><td>X</td>
+			</tr>
+			<tr>
+				<th>Evening</th>
+				<td>OOP</td><td>X</td><td>DCF</td><td>X</td><td>X</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<h3>Information Table</h3>
+	<table id="outputable" border="1">
+	</table>
+	<br>
+	
+	<!-- End your code here  -->
+	
+	</section>
+	<footer>
+	  <div class="center">
+		  &copy; 2017 Li-Ching,Cheng
+	  </div>
+	</footer>
+</body>
+</html>	  

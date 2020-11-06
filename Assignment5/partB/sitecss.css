@@ -1,0 +1,55 @@
+/******************************************************************** 
+I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. 
+No part of this assignment has been copied manually or electronically from any other source 
+(including web sites) except for the information supplied by the WEB222 instructors and / or 
+made available in this assignment for my use.
+I also declare that no part of this assignment has been distributed to other students.
+Name: Li-Ching, Cheng
+Dated: 2018/11/15
+********************************************************************/
+
+body{ 
+	margin:0;
+	padding:0;
+background:url("background.png") center center fixed no-repeat;
+-moz-background-size:cover;
+background-size: cover;
+}
+
+.main-container { max-width: 90%; margin: auto; }
+
+#storename p .title { color: darkmagenta; font-family: "Comic Sans MS","Comic Sans","cursive"; font-size: 30pt; text-shadow: 8px 8px 8px violet; 
+			 height: 150px; width: 40%; text-align: center; margin: auto; }
+
+.symbol { color: black; font-size: 30pt; }
+
+#storename { text-align: center;}
+
+h3 { color: black; font-family: "Comic Sans MS","Comic Sans","cursive"; font-size: 19pt; } 
+
+.checked { color: darkorange; }
+
+img { width: 195px; height: 250px; float: left; margin-right: 15px; }
+
+div span,p { font-family: "Comic Sans MS","Comic Sans","cursive"; font-size: 16pt; }
+
+.Rate { color: antiquewhite; }
+
+.Mickey { color: crimson; font-size: 20pt; }     .Stitch { color: dodgerblue; font-size: 20pt; }    .Winnie { color: orange; font-size: 20pt; }
+
+.Cat { color: deeppink; font-size: 20pt; }     .Dog { color: chocolate; font-size: 20pt; }     .Pokemon { color: mediumblue; font-size: 20pt; }    
+
+.Peanuts { color: lightcyan; font-size: 20pt; }
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.7), rgba(0,0,0,0));
+}
+
+.final {
+    border: 0;
+    height: 0; 
+    box-shadow: 0 0 10px 1px blueviolet;
+}
+footer { text-align: center; }

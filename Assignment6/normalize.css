@@ -1,0 +1,32 @@
+body {background-color: lightpink; }
+
+#container { width: 1100px; margin: auto; }
+
+header { color: blue;text-align: center; border: 2px solid black; border-radius: 5px; margin-right: 10px; 
+	margin-left: 10px; margin-top: 25px; margin-bottom: 10px; padding: 5px 15px ; 
+	background-color: lavenderblush; font-family: "Comic Sans MS","Comic Sans","cursive"; }
+
+img { width: 70px; height: 70px;float: left; margin-top: -13px; }
+
+span { float: right; }
+
+nav {width: 200px; float: left; }
+
+section { width: 450px; float: left;}
+
+aside { border: 2px solid black; border-radius: 5px; margin-right: 10px; 
+	margin-left: 10px; margin-top: 25px; margin-bottom: 10px; background-color: lavenderblush; 
+	font-family: "Comic Sans MS","Comic Sans","cursive"; font-size: 10pt; 
+	width: 300px; float: left; height: 350px; }
+
+footer { color: brown; text-align: center; border: 2px solid black; border-radius: 5px; 
+	margin-right: 10px; margin-left: 10px; margin-top: 450px; background-color: lavenderblush;
+	font-family: "Comic Sans MS","Comic Sans","cursive"; }
+
+nav , section { border: 2px solid black; border-radius: 5px; margin-right: 10px; 
+	margin-left: 10px; margin-top: 25px; margin-bottom: 10px; background-color: lavenderblush; 
+	font-family: "Comic Sans MS","Comic Sans","cursive"; font-size: 13pt; }
+
+section , aside { padding: 15px; }
+
+.dog { width: 300px; height: 350px; margin: auto;}
